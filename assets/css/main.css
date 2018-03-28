@@ -3659,6 +3659,10 @@ span.proyectos img {
 					border-bottom-left-radius: 0;
 				}
 
+.hability {
+	margin-top: 1px;
+}
+
 		@media screen and (max-width: 1280px) {
 
 			#main > .main {
