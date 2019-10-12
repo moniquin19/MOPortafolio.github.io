@@ -18,6 +18,21 @@
 		vertical-align: baseline;
 	}
 
+
+		.social-bar {
+			position: fixed;
+			left: 1.5rem;
+			top: 50%;
+			display: flex;
+			flex-direction: column;
+			font-size: 1.5rem;
+			z-index: 100;
+		}
+
+		.social-bar a{
+			margin-bottom: 4px;
+		}
+
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block;
 	}
@@ -1171,6 +1186,23 @@
 		.\-1u\28small\29 {
 			margin-left: 8.33333%;
 		}
+
+		.social-bar{ 
+			position: fixed;
+			bottom: 2%;
+			top: auto;
+			width: 100%;
+			display: flex;
+			flex-direction: row;
+			font-size: 1.5rem;
+			z-index: 100;
+			align-items: flex-end;
+			justify-content: center;
+			color: #935d8c;
+			left: 0;
+		 }
+
+}
 
 	}
 
@@ -2743,6 +2775,11 @@ span.proyectos img {
 			margin-top: 0;
 		}
 
+		.icon.alt {
+		border-color: #935d8c;
+		color: #935d8c;
+	}
+
 	}
 
 	header.major h2:after {
@@ -2934,6 +2971,19 @@ span.proyectos img {
 		display: -ms-flex;
 		display: flex;
 		width: 100%;
+		margin: 0 0 0 0;
+		padding: 0;
+		list-style: none;
+		cursor: default;
+	}
+
+		.con3 {
+		display: -moz-flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: flex;
+		justify-content: center;
+		width: 60%;
 		margin: 0 0 0 0;
 		padding: 0;
 		list-style: none;
